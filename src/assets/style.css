@@ -1,0 +1,47 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+  }
+  
+  /* Estilos para el carrito */
+  .cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    margin-right: 5px;
+  }
+  
+  /* Estilos para el catálogo */
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .producto h3 {
+    margin: 10px 0;
+  }
